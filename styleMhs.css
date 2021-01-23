@@ -1,0 +1,107 @@
+/*DESAIN INMHS*/
+.navbar1 ul{
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar1 li{
+    float: left;
+}
+.navbar1 li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar1 li a:hover{
+    background-color: #111;
+}
+body {
+    background-color: #ece9e9;
+}
+.kontainer{
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: lem;
+    background-color: white;
+}
+.kontainer .judul h2{
+    text-align: center;
+}
+.kontainer .inputdata{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: lem; 
+}
+.kontainer .inputdata input, select ,textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.kontainer .inputdata textarea{
+    height: 150px;
+}
+.kontainer .inputdata input[type=submit]{
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+.kontainer .inputdata input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+/*Form Gejala*/
+.kontainer .halo{
+    text-align: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: lem;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.kontainer .inputgjl{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: lem;
+ 
+}
+
+.kontainer .inputgjl label{
+    float: right;
+    text-align: justify;
+    width: 90%;
+}
+
+.kontainer .save{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: lem;  
+    text-align: center;
+}
+.kontainer .save input[type=submit]{
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.kontainer .save input[type=submit]:hover{
+    background-color: #45a049;
+}
